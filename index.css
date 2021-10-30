@@ -1,14 +1,17 @@
 body {
     margin: 0;
-    font-family: Copperplate;
+    font-family: petite-caps;
+
 }
 
 .custom-title {
     font-size: 60px;
+
 }
 
 .main-div {
     margin-left: 20px;
+    font: petite-caps;
 }
 
 .container {
@@ -20,11 +23,12 @@ body {
 }
 
 .navbar {
-   background-color: lightblue;
+   background-color: darkseagreen;
     height: 50px;
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
+    justify-content: center;
+    font-family: petite-caps;
 }
 
 .navbar-element {
@@ -43,7 +47,7 @@ body {
     padding: 10px;
     margin: 20px;
     border-radius: 15px;
-    background-color: lightblue;
+    background-color: yellowgreen;
 }
 
 .row-image-desc {
@@ -72,7 +76,7 @@ body {
 
 
 .padre {
-    background-color: gray;
+    background-color: lightyellow;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
