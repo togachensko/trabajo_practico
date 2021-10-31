@@ -1,44 +1,38 @@
-body {
+.body {
     margin: 0;
-    font-family: petite-caps;
+    background-color: whitesmoke;
+        }
 
-}
 
 .custom-title {
-    font-size: 60px;
-
+    font-size: 50px;
+    color: black;
+    margin-top: 50px;
+    text-align: center;
 }
 
 .main-div {
     margin-left: 20px;
-    font: petite-caps;
-}
-
-.container {
-    display: flex;
-    flex-direction: row;
-    background-color: gray;
-    justify-content: center;
-    align-items: center;
-}
+    margin-right: 20px;
+    border-radius: 10px;
+    }
 
 .navbar {
-   background-color: darkseagreen;
+   background-color: indianred;
     height: 50px;
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    font-family: petite-caps;
-}
+    justify-content: flex-end;
+    }
 
 .navbar-element {
     margin-left: 20px;
     margin-right: 10px;
-}
+        }
 
 .description {
     font-weight: bold;
     color: gray;
+    text-align: center;
 }
 
 .contents {
@@ -47,7 +41,7 @@ body {
     padding: 10px;
     margin: 20px;
     border-radius: 15px;
-    background-color: yellowgreen;
+
 }
 
 .row-image-desc {
@@ -65,30 +59,17 @@ body {
 }
 
 .descriptive-text {
-    font-family: Helvetica;
-}
+    font-family: Helvetica, serif;
 
-.price {
-    color: brown;
-    font-size: 30px;
-    align-self: flex-end;
-}
-
-
-.padre {
-    background-color: lightyellow;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    height: 160px;
-    align-items: flex-end;
 }
 
 .card-container-custom {
     margin-left: 24px;
+
 }
 
 .all-cards {
     display: flex;
-    flex-wrap: wrap;
+    justify-content: space-evenly;
+
 }
