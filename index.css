@@ -44,6 +44,7 @@
 
 }
 
+
 .row-image-desc {
     display: flex;
     flex-direction: row;
@@ -72,4 +73,12 @@
     display: flex;
     justify-content: space-evenly;
 
+}
+
+.card-img-top{
+    height: 160px;
+}
+
+.card{
+    height: 370px;
 }
