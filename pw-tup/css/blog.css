@@ -1,0 +1,23 @@
+.card-container-custom {
+    margin-left: 45px;
+
+}
+
+.all-cards {
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    top: 155%;
+    left: 7%;
+    transform: translateX(-50%) translateY(-50);
+
+}
+
+.card-img-top{
+    height: 160px;
+}
+
+.card{
+    height: 370px;
+}
+
