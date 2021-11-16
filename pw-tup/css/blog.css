@@ -8,7 +8,8 @@
     justify-content: space-evenly;
     position: absolute;
     top: 155%;
-    left: 7%;
+    left: 0;
+    right: 0;
     transform: translateX(-50%) translateY(-50);
 
 }
@@ -19,5 +20,6 @@
 
 .card{
     height: 370px;
-}
+    display: flex;
+    }
 

@@ -112,6 +112,8 @@ h3 {
 }
 .pie{
     position: absolute;
-    top: 293%;
+    top: 325%;
     transform: translateX(-50%) translateY(-100);
-}
+    left: 0;
+    right: 0;
+   }
