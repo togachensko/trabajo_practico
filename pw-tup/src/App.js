@@ -1,5 +1,25 @@
 import logo from './logo.svg';
 import './App.css';
+
+import pgBa from './img/Barra.png'
+import pg1 from './img/1.jpg'
+import pg2 from './img/2.jpg'
+import pg3 from './img/3.jpg'
+import pg4 from './img/4.jpg'
+import alq from './img/alquiler.jpg'
+import lla from './img/llave.jpg'
+import log from './img/Logo1.png'
+import mud from './img/Mudanza.jpg'
+import p1 from './img/p1.jpg'
+import p2 from './img/p2.jpg'
+import p3 from './img/p3.jpg'
+import p4 from './img/p4.jpg'
+import per from './img/perro.jfif'
+import pie from './img/pie.png'
+import temp from './img/temporal.jpg'
+
+
+
 import {
   BrowserRouter as Router,
   Switch,
@@ -12,7 +32,7 @@ function App() {
   <div>
         <header>
           <div className="contenedor">
-            <h1><img src="img/Barra.png" height="58" width="309"/></h1>
+            <h1><img src={pgBa} height="58" width="309"/></h1>
               <input type="checkbox" id="menu-bar"/>
               <label className="icon-menu" for="menu-bar"></label>
               <nav className="menu">
@@ -26,20 +46,13 @@ function App() {
           </div>
         </header>
     <main>
-        <section id="banner">
-        <img src="img/banner_1.jpg" alt=""/>
-          <div className="contenedor">
-            <h2>Alquileres Directos - Sin intermediarios</h2>
-            <p>Seriedad, trayectoria y confianza</p>
-          </div>
-      </section>
 
         <div className="slider">
           <ul>
-            <li><img src="img/1.jpg" alt=""/></li>
-            <li><img src="img/2.jpg" alt=""/></li>
-            <li><img src="img/3.jpg" alt=""/></li>
-            <li><img src="img/4.jpg" alt=""/></li>
+            <li><img src={pg1} alt=""/></li>
+            <li><img src={pg2} alt=""/></li>
+            <li><img src={pg3} alt=""/></li>
+            <li><img src={pg4} alt=""/></li>
           </ul>
         </div>
 
@@ -52,7 +65,7 @@ function App() {
       <div className="all-cards" width="100%;">
         <div>
           <div className="card">
-            <img src="img/llave.jpg" className="card-img-top" alt="..."/>
+            <img src={lla} className="card-img-top" alt="..."/>
               <div className="card-body">
                 <h5 className="card-title">Vender tu propiedad</h5>
                 <p className="card-text">
@@ -65,7 +78,7 @@ function App() {
 
         <div className="card-container-custom">
           <div className="card">
-            <img src="img/temporal.jpg" className="card-img-top" alt="..."/>
+            <img src={temp} className="card-img-top" alt="..."/>
               <div className="card-body">
                 <h5 className="card-title">Comprar tu propiedad</h5>
                 <p className="card-text">
@@ -77,7 +90,7 @@ function App() {
         </div>
         <div className="card-container-custom">
           <div className="card">
-            <img src="img/perro.jfif" className="card-img-top" alt="..."/>
+            <img src={per} className="card-img-top" alt="..."/>
               <div className="card-body">
                 <h5 className="card-title">Alquileres temporarios</h5>
                 <p className="card-text">
@@ -89,7 +102,7 @@ function App() {
         </div>
         <div className="card-container-custom">
           <div className="card">
-            <img src="img/Mudanza.jpg" className="card-img-top" alt="..."/>
+            <img src={mud} className="card-img-top" alt="..."/>
               <div className="card-body">
                 <h5 className="card-title">Alquileres anuales</h5>
                 <p className="card-text">
@@ -108,30 +121,30 @@ function App() {
         <h7> Opiniones de nuestros clientes </h7>
         <div className="contenedor2">
           <div className="info-cli">
-            <img src="img/p1.jpg" height="200" width="200"/>
+            <img src={p1} height="200" width="200"/>
               <h4>Nadia D'angelo</h4>
-              <h8> Puse en venta mi casa,+ "\n" + a los 3 días tenía un comprador</h8>
+              <h8> Puse en venta mi casa,<br/>los 3 días tenía un comprador</h8>
           </div>
           <div className="info-cli">
-            <img src="img/p2.jpg" height="200" width="200"/>
+            <img src={p2} height="200" width="200"/>
               <h4>Lara Montiel</h4>
-              <h8> Excelente atención + "\n" + y respuesta ante dudas</h8>
+              <h8> Excelente atención<br/>y respuesta ante dudas</h8>
           </div>
           <div className="info-cli">
-            <img src="img/p4.jpg" height="200" width="200"/>
+            <img src={p4} height="200" width="200"/>
               <h4>Federico Muñoz</h4>
-              <h8> Discreción a la + "\n" + hora de alquilar </h8>
+              <h8> Discreción a la <br/>hora de alquilar </h8>
           </div>
           <div className="info-cli">
-            <img src="img/p3.jpg" height="200" width="200"/>
+            <img src={p3} height="200" width="200"/>
               <h4>Juan Ortiz</h4>
-              <h8> Confort y seguridad + "\n" + recomendable familias</h8>
+              <h8> Confort y seguridad<br/>recomendable familias</h8>
           </div>
         </div>
       </section>
 
       <div className="pie">
-        <img src="img/pie.png" height="265" width="100%"/>
+        <img src={pie} height="265" width="100%"/>
       </div>
 
     </main>
