@@ -1,0 +1,43 @@
+.navbar {
+    background-color: #333333;
+  }
+  
+  
+  .navbar a{
+    color: #fff;
+    transition: 0.5s;
+  }
+  
+  .navbar a:hover{
+    color: #e0e0e0;
+  }
+  
+  .navbar .btn{
+    color: #fff;
+    transition: 0.5s;
+  }
+  
+  .navbar .btn:hover {
+    color: #333333;
+  }
+  
+  .navbar .dropdown-item{
+    color: #333333;
+    transition: 0.5s;
+  }
+  
+  .navbar .dropdown-item:hover{
+    background-color: #333333;
+    color: #fff;
+  }
+  
+  
+  .navbar-toggler {
+    color: #333333;
+  }
+  
+  .navbar-toggler i {
+    color: #fff;
+  }
+  
+  

@@ -1,0 +1,9 @@
+.login-screen-p {
+    display: flex;
+    padding: 40px 80px 40px 40px ;
+    background-image: url(../images/wallpaperbetter.jpg);
+    height: 1000px;
+    justify-content: space-between;
+}
+
+

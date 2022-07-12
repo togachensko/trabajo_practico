@@ -1,0 +1,176 @@
+
+
+/*CALIFICAR*/
+
+.form_calificar{
+    margin: 20px 0px;
+  }
+  
+  .fa-star {
+    cursor: pointer;
+    font-size: 20px;
+  }
+  
+  .form_calificar .btn_calificar{
+    background-color: #4b65d1;
+    color: #FFF;
+    transition: 0.5s;
+    margin-left: 20px;
+   }
+   
+   .form_calificar .btn_calificar:hover{
+     background-color: #738bec;
+     color: #464646;
+    }
+   
+  
+  
+  
+  
+  /* COMPRA */
+  
+  
+  .medios_pago {
+    text-decoration: none;
+    color: #4b65d1;
+  }
+  
+  .container_detalles {
+    border-bottom: 1px solid #bfbfbf;
+  }
+  
+  
+  .compra {
+    border: 1px solid #bfbfbf;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  
+  .compra a{
+    text-decoration: none;
+  }
+  
+  
+  .compra .fa-map-marker-alt {
+    color: #4b65d1;
+    margin-right: 5px;
+  }
+  
+  .compra .comprar{
+   background-color:  #4b65d1;
+   color: #FFF;
+   transition: 0.5s;
+  }
+  
+  .compra .comprar:hover{
+    background-color:  #738bec;
+   }
+  
+  .compra .agregar{
+    background-color:  #464646;
+    color: #FFF;
+    transition: 0.5s;
+  }
+  .compra .agregar:hover{
+    background-color:  #626262;
+   }
+  
+  .compra .btn {
+    margin: 5px 0px;
+  }
+  .compra .btn:hover {
+    box-shadow: 0px 0px 9px rgba(0, 0, 0, 0.35);
+    color: #FFF;
+  }
+  
+  
+  
+  
+  
+  /* COMENTARIOS */
+  
+  .container-comentarios {
+    margin-top: 100px;
+  }
+  
+  
+  .comentarios {
+    margin: 20px 0;
+  }
+  
+  .form_comentarios textarea {
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 84px;
+    max-height: 200px;
+    padding: 10px;
+    line-height: 30px;
+    border: 1px solid #4b65d1;
+    margin-bottom: 10px;
+  }
+  
+  
+  .form_comentarios .btn {
+    background-color: #4b65d1;
+    color: #FFF;
+    margin-bottom: 20px;
+    padding: 10px;
+    transition: 0.5s;
+  }
+  
+  .form_comentarios .btn:hover {
+    background-color:  #738bec;
+    box-shadow: 0px 0px 9px rgba(0, 0, 0, 0.35);
+    color: #FFF;
+  }
+  
+  .media {
+    border-top: 1px solid #bfbfbf;
+    padding-top: 20px;
+  }
+  
+  .media img {
+    margin-right: 20px;
+  }
+  
+  .media .nombre {
+    color: #4b65d1;
+    margin-bottom: 0;
+  }
+  
+  .media .nombre span {
+    font-size: 12px;
+    color: #464646;
+    margin-left: 5px;
+  }
+  
+  
+  .media .comentario {
+    margin-top: 10px;
+  }
+
+  
+
+  .media .botones {
+    margin-bottom: 10px;
+  }
+  
+  .media .botones a{
+    color:#acacac;
+    font-size: 14px;
+    margin-left: 15px;
+    text-decoration: none;
+  }
+  
+  .media .botones a:hover{
+    color: #4b65d1;
+  }
+
+  .btnComentario {
+    border: none;
+    background-color: none;
+    color:#acacac;
+    font-size: 14px;
+    text-decoration: none;
+  }

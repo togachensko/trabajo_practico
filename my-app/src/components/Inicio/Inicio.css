@@ -1,0 +1,178 @@
+body{
+    background-color: white;
+}
+
+
+.slider {
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.slider ul{
+    display: flex;
+    padding: 0;
+    width: 400%;
+
+    animation: cambio 20s infinite alternate;
+    animation-timing-function: ease-in;
+}
+
+.slider li{
+    width: 110%;
+    list-style: none;
+}
+.slider img{
+    width: 100%;
+}
+
+@keyframes cambio {
+    0% { margin-left:  0%; }
+    20% { margin-left:  0%; }
+
+    25% { margin-left:  -100%; }
+    45% { margin-left:  -100%; }
+
+    50% { margin-left:  -200%; }
+    70% { margin-left:  -200%; }
+
+    75% { margin-left:  -300%; }
+    100% { margin-left:  -300%; }
+
+}
+.pie{
+    position: absolute;
+    top: 325%;
+    transform: translateX(-50%) translateY(-100);
+    left: 0;
+    right: 0;
+}
+
+
+
+.card-container-custom {
+    margin-left: 45px;
+
+}
+
+.all-cards {
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    top: 155%;
+    left: 0;
+    right: 0;
+    transform: translateX(-50%) translateY(-50);
+
+}
+
+.card-img-top{
+    height: 160px;
+}
+
+.card{
+    height: 370px;
+    display: flex;
+}
+
+.card-title{
+    font-weight: bold;
+    color: black;
+}
+
+
+
+
+
+
+h1{
+    float: left;
+    font-size: 30px;
+}
+
+header .contenedor{
+    display: table;
+}
+
+section {
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+#texto{
+    text-align: center;
+    color: #3e3e3e;
+    font-family: Calibri;
+}
+
+.bloque{
+    width: 100%;
+    height: 350px;
+    position: absolute;
+    top: 110%;
+    transform: translateX(-50%) translateY(-100);
+    font-size: 22px;
+
+}
+
+h3 {
+    width: 100%;
+    height: 350px;
+    font-size: 40px;
+    top: 20%;
+
+
+}
+
+
+
+
+
+#info{
+    background: #333;
+    color: #fff;
+    text-align: center;
+    align-items: center;
+    position: absolute;
+    top: 240%;
+
+}
+#info .contenedor2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-evenly;
+
+    top: 155%;
+    left: 7%;
+    transform: translateX(-50%) translateY(-50);
+}
+
+h7 {
+    font-size: 35px;
+    position: center;
+    top: -10%;
+}
+
+margen{
+    width: 100px;
+}
+
+
+.info-cli{
+    margin: 20px;
+
+}
+
+.info-cli img{
+    border-radius: 50%;
+    border: 7px solid #ffffff;
+
+}
+
+
+
+
+
+
+
